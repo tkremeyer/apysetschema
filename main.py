@@ -3,10 +3,10 @@ import glob
 import os
 import sys
 
-from modules import logger
-from modules.apisetschema import ApiSetSchema
-from modules.logger import set_log_level, LogLevel
-from modules.utils import welcome
+from apysetschema import logger
+from apysetschema.apisetschema import ApiSetSchema
+from apysetschema.logger import set_log_level, LogLevel
+from apysetschema.utils import welcome
 
 OPTIONS = { }
 

@@ -2,10 +2,10 @@ import struct
 
 import pefile as pefile
 
-from modules import logger
-from modules.apisetschema_v2 import ApiSetSchemaV2
-from modules.apisetschema_v4 import ApiSetSchemaV4
-from modules.apisetschema_v6 import ApiSetSchemaV6
+from apysetschema import logger
+from apysetschema.apisetschema_v2 import ApiSetSchemaV2
+from apysetschema.apisetschema_v4 import ApiSetSchemaV4
+from apysetschema.apisetschema_v6 import ApiSetSchemaV6
 
 
 class ApiSetSchema:

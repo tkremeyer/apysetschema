@@ -1,8 +1,8 @@
 import ctypes
 
-from modules.apisetschemaentry import ApiSetNamespaceEntryValue, ApiSetNamespaceEntry
-from modules.structure import MyStructure
-from modules.utils import read_string
+from apysetschema.apisetschemaentry import ApiSetNamespaceEntryValue, ApiSetNamespaceEntry
+from apysetschema.structure import MyStructure
+from apysetschema.utils import read_string
 
 
 class StructApiSetValueEntryRedirectionV2(MyStructure):
